@@ -1,0 +1,11 @@
+/home/jiawei/Documents/test/cs/sickroomMS/obj/Debug/netcoreapp2.2/sickroomMS.csprojAssemblyReference.cache
+/home/jiawei/Documents/test/cs/sickroomMS/obj/Debug/netcoreapp2.2/sickroomMS.csproj.CoreCompileInputs.cache
+/home/jiawei/Documents/test/cs/sickroomMS/obj/Debug/netcoreapp2.2/sickroomMS.AssemblyInfoInputs.cache
+/home/jiawei/Documents/test/cs/sickroomMS/obj/Debug/netcoreapp2.2/sickroomMS.AssemblyInfo.cs
+/home/jiawei/Documents/test/cs/sickroomMS/bin/Debug/netcoreapp2.2/sickroomMS.deps.json
+/home/jiawei/Documents/test/cs/sickroomMS/bin/Debug/netcoreapp2.2/sickroomMS.runtimeconfig.json
+/home/jiawei/Documents/test/cs/sickroomMS/bin/Debug/netcoreapp2.2/sickroomMS.runtimeconfig.dev.json
+/home/jiawei/Documents/test/cs/sickroomMS/bin/Debug/netcoreapp2.2/sickroomMS.dll
+/home/jiawei/Documents/test/cs/sickroomMS/bin/Debug/netcoreapp2.2/sickroomMS.pdb
+/home/jiawei/Documents/test/cs/sickroomMS/obj/Debug/netcoreapp2.2/sickroomMS.dll
+/home/jiawei/Documents/test/cs/sickroomMS/obj/Debug/netcoreapp2.2/sickroomMS.pdb

@@ -7,14 +7,6 @@ class User{
     public string name;
     public string password;
 
-    public int getID(){
-        return this.id;
-    }
-
-    public string getName(){
-        return this.name;
-    }
-
     public bool checkPassword(string password){
         if(password == this.password) return true;
         else return false;

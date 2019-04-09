@@ -7,18 +7,6 @@ class Doctor:User{
     public string jobTitle;
     public string department;
 
-    public int getAge(){
-        return this.age;
-    }
-
-    public string getJobTitle(){
-        return this.jobTitle;
-    }
-
-    public string getDepartment(){
-        return this.department;
-    }
-
     public void initiate(int id){
         MySqlConnection connection = this.connectToDB();
         try{
@@ -87,7 +75,7 @@ class Doctor:User{
             Console.WriteLine(e.ToString());
         }
     }
-    public static void Main(){
+    public static void noMain(){
         Doctor d = new Doctor();
         d.initiate(1);
         Console.WriteLine(d.name);

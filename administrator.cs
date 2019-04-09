@@ -126,7 +126,7 @@ class Administrator:User{
         } 
     }
     
-    public void InsertNewDepartment(){
+    public void insertNewDepartment(){
         MySqlConnection connection = this.connectToDB();
         Console.Write("科名：");
         string departmentName = Console.ReadLine();
@@ -146,7 +146,7 @@ class Administrator:User{
         }
     }
 
-    public void InsertNewSickroom(){
+    public void insertNewSickroom(){
         MySqlConnection connection = this.connectToDB();
         Console.Write("床位号：");
         string bedNO = Console.ReadLine();
@@ -164,7 +164,7 @@ class Administrator:User{
         }
     }
 
-    public void InsertNewDoctor(){
+    public void insertNewDoctor(){
         MySqlConnection connection = this.connectToDB();
         Console.Write("姓名：");
         string doctorName = Console.ReadLine();
@@ -186,7 +186,7 @@ class Administrator:User{
         }   
     }
 
-    public void InsertNewPatient(){
+    public void insertNewPatient(){
         MySqlConnection connection = this.connectToDB();
         Console.Write("姓名：");
         string patientName = Console.ReadLine();
@@ -273,7 +273,7 @@ class Administrator:User{
         } 
     }
 
-    public static void Main(){
+    public static void noMain(){
         Administrator a = new Administrator();
         a.initiate(1);
         Console.WriteLine("{0}\t{1}\t{2}",a.id,a.password,a.name);
@@ -281,10 +281,10 @@ class Administrator:User{
 //        a.getSickroomInfo();
 //        a.getDoctorInfo();
 //        a.getPatientInfo();
-//        a.InsertNewDepartment();
-//        a.InsertNewSickroom();
-//        a.InsertNewDoctor();
-//        a.InsertNewPatient();
+//        a.insertNewDepartment();
+//        a.insertNewSickroom();
+//        a.insertNewDoctor();
+//        a.insertNewPatient();
 //        a.deleteDepartment();
 //        a.deleteDepartment();
         a.deleteSickRoom();

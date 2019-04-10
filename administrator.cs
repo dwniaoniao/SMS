@@ -175,7 +175,7 @@ class Administrator:User{
         Console.Write("所在科室：");
         string departmentName = Console.ReadLine();
         try{
-            MySqlCommand command = new MySqlCommand(String.Format("insert into doctor value (default,default,'{0}','{1}','{2}','{3}')",doctorName,age,jobTitle,departmentName));
+            MySqlCommand command = new MySqlCommand(String.Format("insert into doctor value (default,'','{0}','{1}','{2}','{3}')",doctorName,age,jobTitle,departmentName));
             command.Connection = connection;
             connection.Open();
             command.ExecuteNonQuery();
@@ -197,7 +197,7 @@ class Administrator:User{
         Console.Write("病房号：");
         String sickroomID = Console.ReadLine();
         try{
-            MySqlCommand command = new MySqlCommand(String.Format("insert into patient value (default,default,'{0}','{1}',{2},{3})",patientName,gender,doctorID,sickroomID));
+            MySqlCommand command = new MySqlCommand(String.Format("insert into patient value (default,'','{0}','{1}',{2},{3})",patientName,gender,doctorID,sickroomID));
             command.Connection = connection;
             connection.Open();
             command.ExecuteNonQuery();
